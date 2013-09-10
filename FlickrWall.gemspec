@@ -8,8 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = FlickrWall::VERSION
   spec.authors       = ["Edder Rojas"]
   spec.email         = ["edder.rojas@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Will fetch your groups photos and set as a background on your mac (sorry linux guys, maybe in the future)
+}
+  spec.summary       = %q{Flickr group image downloader to be set as a wallpaper}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
+  spec.add_development_dependency "rb-appscript", "~> 0.6"
+  spec.add_development_dependency "flickr.rb", "~> 1.1"
 end

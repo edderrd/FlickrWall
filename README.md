@@ -20,6 +20,11 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+# Dependencies
+
+* [AppScript](http://rubygems.org/gems/rb-appscript)
+* [RaVbaker/flickr](http://rubygems.org/gems/flickr.rb)
+
 ## Contributing
 
 1. Fork it
