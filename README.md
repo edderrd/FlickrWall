@@ -1,6 +1,6 @@
 # FlickrWall
 
-TODO: Write a gem description
+Will fetch your groups photos and set as a background on your mac (sorry linux guys, maybe in the future)
 
 ## Installation
 
